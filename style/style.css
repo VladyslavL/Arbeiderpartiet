@@ -2201,7 +2201,7 @@ header .button.scroll_down:hover{
 }
 
 .video_desktop_layer {
-    display: none;
+    /* display: none; */
     text-align: left;
     padding-top: .8rem;
     background-color: #fff;
@@ -2349,6 +2349,7 @@ header .button.scroll_down:hover{
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        display: none;
         -webkit-box-align: end;
         -ms-flex-align: end;
         -webkit-align-items: flex-end;
@@ -2371,12 +2372,12 @@ header .button.scroll_down:hover{
     }
 }
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) { */
     .video_scene__inner {
         background-image: none !important;
         color: #000;
     }
-}
+/* } */
 
 .video__info {
     padding-bottom: 40px;
@@ -2388,6 +2389,7 @@ header .button.scroll_down:hover{
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        display: none;
         -webkit-box-direction: normal;
         -webkit-box-orient: vertical;
         -webkit-flex-direction: column;
